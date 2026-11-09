@@ -1,31 +1,29 @@
-# interopathon
+# Interopathon
 
-Work and results from the interopathon of the projects around Project Weave, kept here so they outlast the room they came from.
+Everything from the interopathon, in one place, from everyone who takes part.
 
-## What goes here
-
-Anything that shows how two projects fit together, or what one project offers the others:
-
-- commands and their full output
-- test vectors and signed examples
-- notes on what matched, what did not, and what is still open
-- screenshots, links, pointers to code and specifications
-
-No format is required.
+Put in whatever you have. A presentation, photos, a video, a document, a prototype, a project idea, a sketch on a napkin, notes from a conversation, a link. Finished or not. Technical or not. If it came out of the interopathon or belongs to it, it belongs here.
 
 ## How to add something
 
-- One folder per project (`rltp/`) or per pair of projects (`rltp-geb/`).
-- Members of the organisation commit directly. Everyone else opens a pull request, or asks to be added.
-- Use test keys only. Never commit a private key, a seed or a token.
-- Say what you checked and what you did not.
+1. Make a folder with your name or your project's name, or use one that is already there.
+2. Put your files in it. A short text file that says what it is helps the others find it.
+3. That's it.
 
-A run that both sides confirm also belongs on the [DTG interop board](https://project-weave-tech.github.io/dtg-interop/) ([repository](https://github.com/Project-Weave-Tech/dtg-interop)). This repository holds the material behind such a run.
+You do not need to know git. On GitHub, open a folder, click **Add file**, then **Upload files**, and drop your files in. If you are not in the organisation yet, say so in the room or ask Anton or Kevin, and you will be added.
 
-## Contents
+A few things to know:
 
-| Folder | Content |
+- Videos and other files over 100 MB do not fit on GitHub. Put them somewhere else and add the link here.
+- Nothing is checked or graded. Rough is fine.
+- Keep out what is private, and keep out passwords, keys and tokens. Everything here is public.
+
+## What is here
+
+| Folder | What |
 |---|---|
-| [`rltp/`](rltp/) | Real Life Trust Protocol: where its specifications, library, vectors, simulators and app are |
-| [`rltp-geb/`](rltp-geb/) | RLTP and Consensual (Geb): VRCs and DID resolution, both directions, 9 Nov 2026 |
-| [`rltp-naoms/`](rltp-naoms/) | RLTP and NAOMS: did:key and `eddsa-jcs-2022`, both directions, 9 Nov 2026 |
+| [`rltp/`](rltp/) | Real Life Trust Protocol: where its specifications, code and demos are |
+| [`rltp-geb/`](rltp-geb/) | A test between the Real Life Trust Protocol and Consensual (Geb), 9 Nov 2026 |
+| [`rltp-naoms/`](rltp-naoms/) | A test between the Real Life Trust Protocol and NAOMS, 9 Nov 2026 |
+
+Add your folder to this table if you like. If not, someone else will.
