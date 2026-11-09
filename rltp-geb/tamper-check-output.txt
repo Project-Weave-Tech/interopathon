@@ -1,0 +1,14 @@
+response_vrc_by_bob_about_alice
+  hashData equals Geb's: true
+  genuine: failures 0 · passed context,type,issuer,issuerScope,validFrom,subject,proof-form,proof-binding,proof-key,proof-signature
+  changed nonce → proof-signature
+  changed validFrom → proof-signature
+  other party's verificationMethod → proof-binding,proof-signature
+  keyAgreement key (#key-3) → proof-key
+completion_vrc_by_alice_about_bob
+  hashData equals Geb's: true
+  genuine: failures 0 · passed context,type,issuer,issuerScope,validFrom,subject,proof-form,proof-binding,proof-key,proof-signature
+  changed nonce → proof-signature
+  changed validFrom → proof-signature
+  other party's verificationMethod → proof-binding,proof-signature
+  keyAgreement key (#key-3) → proof-key

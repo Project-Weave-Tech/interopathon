@@ -1,0 +1,6 @@
+  ok    geb-vrcs.json[0] (did:peer:2.Az6MkvRXNYcE7MMduynWTgeKbDaT1iijDSC8pZqXZc8rHPrf2.Vz6MkvRXNYcE7MMduynWTgeKbDaT1iijDSC8pZqXZc8rHPrf2.Ez6LSoFcnhmJZ8prdoGBB6USrPAmEykBABxasuu99hCNFNAbC): plain DTG RelationshipCredential, issuerScope directed, eddsa-jcs-2022 proof verifies
+  note  geb-vrcs.json[0] (did:peer:2.Az6MkvRXNYcE7MMduynWTgeKbDaT1iijDSC8pZqXZc8rHPrf2.Vz6MkvRXNYcE7MMduynWTgeKbDaT1iijDSC8pZqXZc8rHPrf2.Ez6LSoFcnhmJZ8prdoGBB6USrPAmEykBABxasuu99hCNFNAbC): issuerScope directed: permitted for a VRC, pairwise is RECOMMENDED
+  ok    geb-vrcs.json[1] (did:peer:2.Az6Mkon3Necd6NkkyfoGoHxid2znGc59LU3K7mubaRcFbLfLX.Vz6Mkon3Necd6NkkyfoGoHxid2znGc59LU3K7mubaRcFbLfLX.Ez6LSqaU49Tn4sboPj9gbrxmcJ7sHF5gu6bzAASfJnh9meXK6): plain DTG RelationshipCredential, issuerScope directed, eddsa-jcs-2022 proof verifies
+  note  geb-vrcs.json[1] (did:peer:2.Az6Mkon3Necd6NkkyfoGoHxid2znGc59LU3K7mubaRcFbLfLX.Vz6Mkon3Necd6NkkyfoGoHxid2znGc59LU3K7mubaRcFbLfLX.Ez6LSqaU49Tn4sboPj9gbrxmcJ7sHF5gu6bzAASfJnh9meXK6): issuerScope directed: permitted for a VRC, pairwise is RECOMMENDED
+
+All credentials pass the plain DTG RelationshipCredential check (informative).

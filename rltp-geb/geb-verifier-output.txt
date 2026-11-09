@@ -1,0 +1,21 @@
+RLTP trust-protocol at 48c5efb (lib 0.17.0), vectors/encounter-cards.json. (a) = Geb's app verifier (crate verifyVrc); (b) = Geb's independent strict eddsa-jcs-2022 check (JCS, proofConfig with @context, SHA-256, Ed25519; did:key resolver added).
+FAIL (a) credential (0.26 wire form) [RLTP expects accept]: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   (b) credential (0.26 wire form) [RLTP expects accept]: did:key key resolved, signature verifies
+FAIL (a) credential025 (held 0.25 form) [RLTP expects accept]: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   (b) credential025 (held 0.25 form) [RLTP expects accept]: did:key key resolved, signature verifies
+FAIL (a) timestampSpelling.accepted/offset-spelling [RLTP expects accept]: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   (b) timestampSpelling.accepted/offset-spelling [RLTP expects accept]: did:key key resolved, signature verifies
+FAIL (a) timestampSpelling.accepted/offset-spelling-with-fraction [RLTP expects accept]: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   (b) timestampSpelling.accepted/offset-spelling-with-fraction [RLTP expects accept]: did:key key resolved, signature verifies
+FAIL (a) timestampSpelling.rewritten/rewritten-without-signing [RLTP expects reject (ERR_SIG)]: verifyVrc threw: data did not match any variant of untagged enum Vrc
+FAIL (b) timestampSpelling.rewritten/rewritten-without-signing [RLTP expects reject (ERR_SIG)]: signature does not verify over hashData
+tampering credential (0.26 wire form) (the first credential valid by check (b) only):
+ok   refused (a) changed credentialSubject.challenge: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   refused (b) changed credentialSubject.challenge: signature does not verify over hashData
+ok   refused (a) changed issuer (to the subject DID): verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   refused (b) changed issuer (to the subject DID): issuer is not the verificationMethod DID
+ok   refused (a) proofValue byte 10 flipped: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   refused (b) proofValue byte 10 flipped: signature does not verify over hashData
+ok   refused (a) removed @context entry https://real-life.org/rltp/v1: verifyVrc threw: data did not match any variant of untagged enum Vrc
+ok   refused (b) removed @context entry https://real-life.org/rltp/v1: signature does not verify over hashData
+RLTP-ENCOUNTER-VERIFY: 5 credentials, a: 0 ok, b: 4 ok, tamper refused: 8/8
