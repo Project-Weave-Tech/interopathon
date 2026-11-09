@@ -22,7 +22,7 @@ A few things to know:
 
 What people shared in the group chat, 6 to 10 November 2026, so it is not lost in the scroll. Only the work side. Add what is missing, or correct a line.
 
-## Projects and demos
+### Projects and demos
 
 | What | Link | Shared by |
 |---|---|---|
