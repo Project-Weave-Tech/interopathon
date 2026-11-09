@@ -22,6 +22,7 @@ A few things to know:
 
 | Folder | What |
 |---|---|
+| [`shared-links/`](shared-links/) | Links shared in the group chat during the weekend: projects, talks, code, reading |
 | [`rltp/`](rltp/) | Real Life Trust Protocol: where its specifications, code and demos are |
 | [`rltp-geb/`](rltp-geb/) | A test between the Real Life Trust Protocol and Consensual (Geb), 9 Nov 2026 |
 | [`rltp-naoms/`](rltp-naoms/) | A test between the Real Life Trust Protocol and NAOMS, 9 Nov 2026 |
